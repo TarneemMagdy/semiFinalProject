@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/cropped-Favicon-32x32.png" type="image/x-icon">
+    <title>gaelle</title>
+     
+     <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- start header -->
+ <div class="before">
+    <p>Free ground shipping on most orders over $100 *not applicable on all items*</p>
+ </div>
+ <header>
+    <div class="nav--p">
+   
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="images/logo-gaelle.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop-list-standard.html">Shop</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="ourclient.html">Our Cliect</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ourteam.html">Our Team</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact US</a>
+        </li>
+      </ul>
+      <div class="nav-right">
+        <div class="login mr-25px">
+          <!-- Button trigger modal -->
+<button type="button" class="btn border-0 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span><i class="fa-solid fa-user"></i></span>
+        <span class="text btn">login / register</span>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+         
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body login_model">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="home" aria-selected="true">LOGIN</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="profile" aria-selected="false">REGISTER</button>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="home-tab">
+<form class="qodef-m ui-tabs-panel ui-corner-bottom ui-widget-content qodef-membership-login-modal" method="GET" >
+<div class="qodef-m-fields">
+<input type="text" class="qodef-m-user-name" name="user_name" placeholder="Username *" value="" required="" pattern=".{3,}" autocomplete="username">
+<input type="password" class="qodef-m-user-password" name="user_password" placeholder="Password *" required="" autocomplete="current-password">
+</div>
+<div class="qodef-m-links">
+<div class="qodef-m-links-remember-me">
+<input type="checkbox" id="qodef-m-links-remember" class="qodef-m-links-remember" name="remember" value="forever">
+<label for="qodef-m-links-remember" class="qodef-m-links-remember-label">Remember me</label>
+</div>
+<a class="qodef-shortcode qodef-m qodef-m-links-reset-password qodef-button qodef-layout--textual  qodef-html--link " href="#" target="_self"> <span class="qodef-m-text">Lost Your password?</span></a> </div>
+<div class="qodef-m-action">
+<button type="submit" class="qodef-shortcode qodef-m qodef-m-action-button qodef-button qodef-layout--filled"> <span class="qodef-m-text">Login</span></button> 
+<div class="qodef-m-social-login-holder">
+<div class="qodef-m-social-login-label">
+or connect with social networks </div>
+<div class="qodef-m-social-login qodef--facebook">
+<button type="submit" class="qodef-m-social-login-btn border-0 " data-social="facebook">Facebook</button>
+</div>
+</div>
+ </form>
+</div>
+ 
+
+  </div>
+  <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="profile-tab">
+   
+<form class="qodef-m ui-tabs-panel ui-corner-bottom ui-widget-content qodef-membership-login-modal" method="POST"  >
+<div class="qodef-m-fields">
+<input type="text" class="qodef-m-user-name" name="user_name" placeholder="Username *" value="" required="" pattern=".{3,}" autocomplete="username">
+<input type="email" class="qodef-m-user-email" name="user_email" placeholder="Email *" value="" required="" autocomplete="email">
+<input type="password" class="qodef-m-user-password" name="user_password" placeholder="Password *" required="" pattern=".{5,}" autocomplete="new-password">
+<input type="password" class="qodef-m-user-confirm-password" name="user_confirm_password" placeholder="Repeat Password *" required="" pattern=".{5,}" autocomplete="new-password">
+<label class="qodef-m-privacy-policy">
+</label>
+</div>
+<div class="qodef-m-action">
+<button type="submit" class="qodef-shortcode qodef-m qodef-m-action-button qodef-button qodef-layout--filled   "> <span class="qodef-m-text">Register</span></button> </div>
+ 
+ 
+</form>
+
+
+  </div>
+ 
+</div>
+      </div>
+       
+    </div>
+  </div>
+</div>
+        </div>
+           <div class="wishlist mr-25px">
+          <a href="washlist.html">
+        <span><i class="fa-solid fa-heart"></i></span>
+        <span class="text">Wishlist</span>
+        </a>
+        </div>
+        <div class="cart mr-25px">
+          <a href="cart.html">
+        <span class="text">Cart</span>
+        <span class="count">(0)</span>
+        </a>
+        </div>
+        
+    </div>
+    </div>
+   
+  </div>
+</nav>
+
+</div>
+ </header>
+<!-- end header -->
+<!-- start shop -->
+<div class="after-nav">
+    <div class="qodef-breadcrumbs"><a  href="index.html"><span>Home </span></a><span class="qodef-breadcrumbs-separator">  /  </span><span itemprop="title" class="qodef-breadcrumbs-current"> Shop List Standard</span></div>
+</div>
+ 
+<!-- end shop -->
+
+<!-- start one-shop -->
+<section class="one-shop">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-9 ">
+            <div class="row">
+                <div class="qufd">
+                <div class="col-6">
+                     <div class="qodef-woo-results">
+
+                    <div class="qodef-product-list-result-count">
+                 <p class="woocommerce-result-count">
+                Showing 1–12 of 114 results</p>
+                 </div>
+                 </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end ">
+
+
+ 
+</div>
+</div>
+               
+            <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="sparkle-plates.html">
+    <img src="images/shop-01-img-01.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+ 
+</div>
+</div>
+        </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="peach-plates.html">
+    <img src="images/shop-2-img-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+        </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="marine-dots.html">
+    <img src="images/shop-3-img-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+           <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="vardag.html">
+    <img src="images/shop-4-img-01.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div>            <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="upplag.html">
+    <img src="images/shop-5-img-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div>        
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="dinere.html">
+    <img src="images/shop-6-img-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="offtast.html">
+    <img src="images/shop-7-img-1 (1).jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="billen.html">
+    <img src="images/shop-8-gallery-2.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="ombon.html">
+    <img src="images/shop-9-img-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="paradisa.html">
+    <img src="images/shop-10-gallery-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="strimmo.html">
+    <img src="images/shop-11-gallery-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-4">
+             <div class="qodef-e-inner">
+<div class="qodef-e-media">
+<div class="qodef-e-media-image">
+<div class="card-img card-img2"> 
+    <div class="overlay">
+        <div class="top">
+            <div class="icon"><i class="fa-regular fa-heart"></i></div>
+        
+        <div class="icon">
+          <i class="fa-regular fa-eye"></i>
+          </div>
+        </div>
+        <button class="btn border-0">
+<a href=""><span class="qodef-m-text">Add to cart</span></a>
+</button>
+    </div>
+    <a href="entusiasm.html">
+    <img src="images/shop-12-gallery-1.jpg"> 
+    </a>
+</div> 
+</div>
+<div class="qodef-e-media-inner">
+ <div class="qodef-woo-product-price name">BILLEN</div>
+<div class="qodef-woo-product-price price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>72</span></div>
+</div>
+</div>
+</div>
+ 
+</div> 
+        </div>
+         </div>
+      
+        
+        <div class="col-3 ps-4">
+            <div class="qodef-search-form-inner">
+                <input type="search" id="qodef-search-form-1" class="qodef-search-form-field " name="s" value="" placeholder="Search" required=""> <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+
+           <div class="qodef-product-list-filter-vertical">
+
+         <div class="qodef-grid-item">
+<div class="qodef-filter-category qodef-filter-checkbox-type" data-type="category">
+<h4 class="qodef-e-filter-title">Category</h4>
+<div class="qodef-e-options-wrapper qodef-show-show-more" style="height: 340px;">
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="art-work" name="qodef-product-category" title="Art work" data-id="art-work" value="">
+<label for="art-work">
+<span class="qodef-e-label">Art work</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="bakery" name="qodef-product-category" title="Bakery" data-id="bakery" value="">
+<label for="bakery">
+<span class="qodef-e-label">Bakery</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="body-care" name="qodef-product-category" title="Body Care" data-id="body-care" value="">
+<label for="body-care">
+<span class="qodef-e-label">Body Care</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="cakes" name="qodef-product-category" title="Cakes" data-id="cakes" value="">
+<label for="cakes">
+<span class="qodef-e-label">Cakes</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="ceramics" name="qodef-product-category" title="Ceramics" data-id="ceramics" value="">
+<label for="ceramics">
+<span class="qodef-e-label">Ceramics</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="chairs" name="qodef-product-category" title="Chairs" data-id="chairs" value="">
+<label for="chairs">
+<span class="qodef-e-label">Chairs</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="clothes" name="qodef-product-category" title="Clothes" data-id="clothes" value="">
+<label for="clothes">
+<span class="qodef-e-label">Clothes</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="cookies" name="qodef-product-category" title="Cookies" data-id="cookies" value="">
+<label for="cookies">
+<span class="qodef-e-label">Cookies</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="cosmetics" name="qodef-product-category" title="Cosmetics" data-id="cosmetics" value="">
+<label for="cosmetics">
+<span class="qodef-e-label">Cosmetics</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="decoration" name="qodef-product-category" title="Decoration" data-id="decoration" value="">
+<label for="decoration">
+<span class="qodef-e-label">Decoration</span>
+</label>
+</div>
+ 
+<a href="#" class="qodef-filter-show-more"> + Show more</a> 
+</div>
+</div>
+
+
+           </div>
+           <div class="qodef-grid-item">
+<div class="qodef-filter-brands qodef-filter-checkbox-type" data-type="brand">
+<h4 class="qodef-e-filter-title">Brand</h4>
+<div class="qodef-e-options-wrapper">
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="mensimo" name="qodef-product-brand" title="Mensimo" data-id="mensimo" value="">
+<label for="mensimo">
+<span class="qodef-e-label">Mensimo</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="qolo" name="qodef-product-brand" title="Qolo" data-id="qolo" value="">
+<label for="qolo">
+<span class="qodef-e-label">Qolo</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="saram" name="qodef-product-brand" title="Saram" data-id="saram" value="">
+<label for="saram">
+<span class="qodef-e-label">Saram</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="sizifus" name="qodef-product-brand" title="Sizifus" data-id="sizifus" value="">
+<label for="sizifus">
+<span class="qodef-e-label">Sizifus</span>
+</label>
+</div>
+<div class="qodef-e-checkbox">
+<input type="checkbox" id="xtraloss" name="qodef-product-brand" title="Xtraloss" data-id="xtraloss" value="">
+<label for="xtraloss">
+<span class="qodef-e-label">Xtraloss</span>
+</label>
+</div>
+ </div>
+</div>
+</div>
+<div class="qodef-grid-item">
+<div class="qodef-filter-attribute qodef-filter-checkbox-type color" data-type="color">
+<h4 class="qodef-e-filter-title">Color</h4>
+<div class="qodef-e-options-wrapper">
+<div class="qodef-e-checkbox"  style="--qodef-checkbox-color:#434ddf;">
+<input type="checkbox" id="blue" class="qodef-with-color" name="qodef-product-attribute" title="Blue" data-id="blue" data-type="color" value="">
+<label for="blue">
+<span class="qodef-e-label">
+Blue </span>
+</label>
+</div>
+<div class="qodef-e-checkbox" style="--qodef-checkbox-color:#369878">
+<input type="checkbox" id="green" class="qodef-with-color" name="qodef-product-attribute" title="Green" data-id="green" data-type="color" value="">
+<label for="green">
+<span class="qodef-e-label">
+Green </span>
+</label>
+</div>
+<div class="qodef-e-checkbox" style="--qodef-checkbox-color:#f73475">
+<input type="checkbox" id="pink" class="qodef-with-color" name="qodef-product-attribute" title="Pink" data-id="pink" data-type="color" value="">
+<label for="pink">
+<span class="qodef-e-label">
+Pink </span>
+</label>
+</div>
+<div class="qodef-e-checkbox" style="--qodef-checkbox-color:#806cbb">
+<input type="checkbox" id="violet" class="qodef-with-color" name="qodef-product-attribute" title="Violet" data-id="violet" data-type="color" value="">
+<label for="violet">
+<span class="qodef-e-label">
+Violet </span>
+</label>
+</div>
+ </div>
+</div>
+</div>
+<div class="qodef-grid-item">
+<div class="qodef-e-price-filter">
+<h4 class="qodef-e-filter-title">Filter by Price</h4>
+ 
+ <label for="customRange1" class="form-label">Range</label>
+<input type="range" class="form-range" min="0" max="10" step="0" start="0" id="customRange1">
+</div>
+</div>
+
+<div class="qodef-e-widget-area">
+<div id="gaelle_core_separator-21" class="widget widget_gaelle_core_separator qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"><div class="qodef-shortcode qodef-m  qodef-separator clear  "> <div class="qodef-m-line" style="border-color: transparent;width: 0px;border-bottom-width: 0px;margin-top: 2px;margin-bottom: 0px"></div></div></div><div id="gaelle_core_title_widget-13" class="widget widget_gaelle_core_title_widget qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"> <h4 class="qodef-widget-title">
+Realted products </h4>
+</div><div id="woocommerce_top_rated_products-2" class="widget woocommerce widget_top_rated_products qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"><ul class="product_list_widget"><li>
+<div class="qodef-e-media">
+<a href="#">
+<img decoding="async"  src="images/shop-27-img-01-600x731.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="t"> </a>
+</div>
+<div class="qodef-e-content">
+<h6 class="qodef-woo-product-title">
+<a itemprop="url" href="https://gaelle.qodeinteractive.com/product/dryfit/">Dryfit</a>
+</h6>
+<div class="qodef-woo-ratings qodef-m">
+    <div class="qodef-m-inner">
+        <div class="qodef-m-star qodef--initial">
+
+             </div>
+              <div class="qodef-woo-product-price price">
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>33</bdi></span> </div>
+</div>
+</li>
+<li>
+<div class="qodef-e-media">
+<a href="https://gaelle.qodeinteractive.com/product/berry-sour/">
+<img  src="images/shop-58-img-01-600x828.jpg" > </a>
+</div>
+<div class="qodef-e-content">
+<h6 class="qodef-woo-product-title">
+<a itemprop="url" href="https://gaelle.qodeinteractive.com/product/berry-sour/">Berry sour</a>
+</h6>
+ <div class="qodef-m-star qodef--initial">
+     
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>27</bdi></span> </div>
+</div>
+</li>
+</ul></div><div id="gaelle_core_separator-22" class="widget widget_gaelle_core_separator qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"><div class="qodef-shortcode qodef-m  qodef-separator clear  "> <div class="qodef-m-line" style="border-color: transparent;width: 0px;border-bottom-width: 0px;margin-top: 0px;margin-bottom: 0px"></div></div></div><div id="gaelle_core_title_widget-10" class="widget widget_gaelle_core_title_widget qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"> <h4 class="qodef-widget-title">
+Follow </h4>
+</div><div id="gaelle_core_social_share-7" class="widget widget_gaelle_core_social_share qodef-product-list-sidebar-widget-area-bottom" data-area="product-list-widget-bottom"><div class="qodef-shortcode qodef-m  qodef-social-share clear qodef-layout--text "> <ul class="qodef-shortcode-list"> <li class="qodef-facebook-share"> <a  class="qodef-share-link" href="#"> <span class="qodef-social-network-text">fb</span> </a></li><li class="qodef-twitter-share"> <a itemprop="url" class="qodef-share-link" href="#"> <span class="qodef-social-network-text">tw</span> </a></li><li class="qodef-linkedin-share"> <a itemprop="url" class="qodef-share-link" href="#" > <span class="qodef-social-network-text">lnkd</span> </a></li><li class="qodef-pinterest-share"> <a itemprop="url" class="qodef-share-link" href="#"> <span class="qodef-social-network-text">pin</span> </a></li><li class="qodef-tumblr-share"> <a itemprop="url" class="qodef-share-link"> <span class="qodef-social-network-text">tmb</span> </a></li> </ul></div></div> </div>
+        </div>
+    </div>
+        </div>
+      </div>
+        </div>
+</section>
+<!-- end one-shop -->
+
+<!-- start section footer -->
+<footer>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+    <div class="qodef-shortcode"> 
+      <div class="qodef-m-image">
+        <img src="images/logo-gaelle.png">
+        </div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+</div> 
+</div>
+ <div class="col-9 pt-3">
+  <div class="row justify-content-end">
+<div class=" col-lg-3 col-md-12 col-sm-12">
+   <ul class="menu">
+    <li class="menu-item">
+      <a href="#">About Us</a>
+    </li>
+    <li class="menu-item">
+      <a href="#">Contact Us</a>
+    </li>
+    <li class="menu-item">
+      <a href="#">Get In Touch</a>
+    </li>
+    <li class="menu-item menu"><a href="#">FAQ Page</a></li>
+</div>
+<div class=" col-lg-3 col-md-12 col-sm-12">
+  <ul   class="menu"><li class="menu-item menu-item"><a href="#">Main Home</a></li>
+<li   class="menu-item"><a href="#">About Me</a></li>
+<li class="menu-item"><a href="#">About Us</a></li>
+<li class="menu-item"><a href="#">Contact</a></li>
+<li  class="menu-item"><a href="#">Get In Touch</a></li>
+</ul>
+</div>
+<div class=" col-lg-3 col-md-12 col-sm-12">
+   <ul class="menu"><li class="menu-item"><a href="https://www.facebook.com/QodeInteractive/">Facebook</a></li>
+<li class="menu-item"><a href="https://www.instagram.com/qodeinteractive/">Instagram</a></li>
+<li class="menu-item"><a href="https://www.behance.net/qodeinteractive">Behance</a></li>
+<li class="menu-item"><a href="https://www.pinterest.com/qodeinteractive/">Pinterest</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row two">
+  <div class="col-lg-6 col-md-7 ">
+<div class="newsletter">
+<span class="form-control-wrap" data-name="your-email"><input size="40" class="wpcf7-form-control" placeholder="Subscribe for a newsletter" value="" type="text" name="your-email"></span>
+<button type="submit" class="qodef-icon-button">
+ <i class="fa-solid fa-arrow-right-long"></i>
+</button>
+</div>
+</div>
+<div class="col-lg-6 col-md-5 d-flex justify-content-end">
+ <p >@ 2023 <a href="#" target="_blank"  >Qode Interactive</a>, All Right Reserved</p>
+</div>
+ </div>
+ </div>
+</footer>
+<!-- end section footer -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
